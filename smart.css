@@ -1,0 +1,26 @@
+/*background*/
+.bodytype {
+    background-color:#71A1C7 ;
+}
+/* the nav across the screen*/
+.navigation {
+    /* display: flex;
+    flex-direction: row;
+  align-content: space-between; */
+  color: black;
+}
+
+.navigation li {
+    list-style-type: none;
+    display: inline-block;
+    color: black;
+    word-spacing: 5px;
+    text-decoration: none;
+}
+/*words*/
+.info {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
