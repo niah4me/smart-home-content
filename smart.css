@@ -15,7 +15,6 @@
     list-style-type: none;
     display: inline-block;
     color: black;
-    word: spacing 2%;
     text-decoration: none;
     align-content: row;
     text-align: center;
@@ -38,6 +37,7 @@
     padding: 0px 0;
     padding-left: 15px;
     width: calc(100% + 15px);
+    height:5%;
     margin: -5px -5px 0 -15px;
     background-color: #CCE7F8;
     background-size: 100%;
@@ -64,18 +64,26 @@
 
 .navigation a {
     text-decoration: none;
-    color: #333;
+    color: #CCE7F8;
 }
 
 .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: lightgray;
-    padding: 10px;
+    background-color: #CCE7F8;
+    padding: -5px;
+    text-align: left;
+}
+.footerdef{
     text-align: center;
 }
 
 .content {
     margin-bottom: 100px;
+}
+.image7{
+    align-content: right;
+    width: 90%;
+    height: 60%;
 }
