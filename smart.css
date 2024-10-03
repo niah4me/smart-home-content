@@ -31,6 +31,7 @@
 .textBox {
     border: 1px solid black;
     padding: 15px;
+    text-align: center;
   }
   
   .textBox :first-child {
@@ -41,3 +42,39 @@
     background-color: #CCE7F8;
     color: white;
   }
+  .header {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    margin-bottom: 100px;
+}
