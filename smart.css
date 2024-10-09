@@ -1,6 +1,8 @@
 /*background*/
 .bodytype {
     background-color:#71A1C7 ;
+    display: block;
+    margin: 1px;
 }
 /* the nav across the screen*/
 .navigation {
@@ -28,21 +30,12 @@
 }
 /*header*/
 .textBox {
-    border: 1px solid black;
     padding: 15px;
     text-align: center;
+    background-color: #CCE7F8;
   }
   
-  .textBox :first-child {
-    padding: 0px 0;
-    padding-left: 15px;
-    width: calc(100% + 15px);
-    height:5%;
-    margin: -5px -5px 0 -15px;
-    background-color: #CCE7F8;
-    background-size: 100%;
-    color: white;
-  }
+
   .header {
     position: sticky;
     top: 0;
@@ -50,7 +43,17 @@
     background-color: lightgray;
     padding: 10px;
 }
+.logo{
+  float: left;
+  max-width: 100px;
+  
+  
+}
+.logo-foot {
+  
+  max-width: 120px;
 
+}
 .navigation ul {
     list-style-type: none;
     padding: 0;
@@ -69,25 +72,23 @@
 
 .footer {
   padding: 10px;
-  text-align: right;
   background-color: #C2E3EB;
   bottom: 0;
+  display: flex;
+  flex-direction: row;
 
 }
 .footerdef{
     text-align: center;
-    align-content: center;
     position: absolute;
-    right: 5px;
-    left:7px;
-    width: 300px;
+    left:300px;
+    width: 7px;
     padding: 10px;
   }
 
   .navbar {
     overflow: hidden;
     background-color: #C2E3EB;
-  
     bottom: 0;
     width: 100%;
   }
